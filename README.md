@@ -76,13 +76,12 @@ To implement the intrinsic-SAID method, we used the codes from the following pap
 method, please also consider citing this work:
 ```
 @inproceedings{aghajanyan-etal-2021-intrinsic,
-    title = "Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning",
-    author = "Aghajanyan, Armen  and
+    title = {Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning},
+    author = {Aghajanyan, Armen  and
       Gupta, Sonal  and
-      Zettlemoyer, Luke",
-    year = "2021",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
+      Zettlemoyer, Luke},
+    publisher = {Association for Computational Linguistics},
+    year = {2021}
 }
 ```
 To implement parameterized hypercomplex layers, we use the implementation of the following work,
