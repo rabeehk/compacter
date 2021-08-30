@@ -77,9 +77,7 @@ method, please also consider citing this work:
 ```
 @inproceedings{aghajanyan-etal-2021-intrinsic,
     title = {Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning},
-    author = {Aghajanyan, Armen  and
-      Gupta, Sonal  and
-      Zettlemoyer, Luke},
+    author = {Aghajanyan, Armen  and Gupta, Sonal  and Zettlemoyer, Luke},
     publisher = {Association for Computational Linguistics},
     year = {2021}
 }
