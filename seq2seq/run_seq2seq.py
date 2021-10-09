@@ -550,6 +550,7 @@ def main():
         for task, test_dataset in test_datasets.items():
             metrics = trainer.evaluate(eval_dataset=test_dataset,
               max_length=data_args.test_max_target_length, num_beams=data_args.num_beams,
+              metric_key_prefix="test"
             )
             trainer.log_metrics("test", metrics)
             trainer.save_metrics("test", metrics)
