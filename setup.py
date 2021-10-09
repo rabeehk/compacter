@@ -39,7 +39,7 @@ def setup_package():
       ],
       cmdclass={"build_ext": BuildExtension},
       install_requires=[
-        'datasets',
+        'datasets==1.6.2',
         'scikit-learn==0.24.2',
         'tensorboard==2.5.0',
         'matplotlib==3.4.2',
