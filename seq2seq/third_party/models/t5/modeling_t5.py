@@ -1601,9 +1601,7 @@ class T5ForConditionalGeneration(T5PreTrainedModel):
     ###############################################
     def init_prefix_weights(self):
        if self.init_prefix_from_vocab:
-           model = T5ForConditionalGeneration.from_pretrained('t5-base')
-           wte = model.get_input_embeddings()
-           self.prefix_shared.data = wte.weight[:self.prefix_dim].clone().detach()
+           self.prefix_shared.data = self.get_input_embeddings().weight[:self.prefix_dim].clone().detach()
        else:
            random_range = 0.5 
            self.prefix_shared.data.uniform_(-random_range, random_range)
