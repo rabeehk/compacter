@@ -73,7 +73,7 @@ If you find this repo useful, please cite our work:
 ```
 
 To implement the intrinsic-SAID method, we used the codes from the following paper. If using this 
-method, please also consider citing this work:
+method, please also consider citing our work and this work:
 ```
 @inproceedings{aghajanyan-etal-2021-intrinsic,
     title = {Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning},
